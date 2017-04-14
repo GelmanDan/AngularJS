@@ -1,0 +1,21 @@
+img {
+    width: 100%;
+}
+.row {
+    width: 1364px;
+}
+.menu h2:hover{
+    text-decoration: underline;
+    
+}
+.menu h2{
+    width:200px;
+    
+}
+.menu li{
+    list-style-type: none;
+    display: inline-block;
+}
+.menu li a{
+    color: black;
+}

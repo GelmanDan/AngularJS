@@ -1,0 +1,14 @@
+
+<div class="row" >
+        <div class="container">
+			<h1>Articals</h1>
+            {{res.text}}
+            <div class="artical" ng-repeat="res in results">
+                <h3>{{res.description}}</h3>
+                <img ng-src="{{res.image}}" />
+                <p>{{res.text}}</p>
+                <strong>{{res.author}}</strong>
+                <p>{{res.time}}</p>
+            </div>
+        </div>
+    </div>
